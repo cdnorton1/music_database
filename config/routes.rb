@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 root 'hip#hop'
 
   get '/about' => 'hip#about'
-
+  get '/artists' => 'artists#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
